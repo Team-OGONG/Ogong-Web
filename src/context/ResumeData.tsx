@@ -4,8 +4,8 @@ export const ResumeData = {
     // 경력
     {
       company: "박태욱",
-      startAt: "경력 4년차 개발자",
-      endAt: "주요 경력: 前 금성출판사 프론트엔드 리드개발자",
+      startAt: "경력 4년차 프론트엔드 개발자",
+      endAt: "주요 경력: 前 금성출판사 매쓰클라우드 프론트엔드 리드개발자",
       job: "오공팀 서버, 웹 개발.",
       description: "오공팀에서 서버개발과 웹개발을 맡고있습니다. JS 와 TS를 사용하여 React, Vue, Node 등의 프레임워크와 라이브러리를 사용하는것에 능통합니다.",
       icon: "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/50830667_2308231422790513_9186058928650190848_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=174925&_nc_ohc=iipq91A2x7UAX-k29vs&_nc_ht=scontent-ssn1-1.xx&oh=f65e2d2889510540291ffad8fa6b02ef&oe=60CCC4BA"
@@ -13,15 +13,15 @@ export const ResumeData = {
     {
       company: "이유진",
       startAt: "경력 3년차 UI/UX 디자이너",
-      endAt: "주요경력: 매드맥스 디자인 주임",
+      endAt: "주요경력: 매드맥스 디자이너 (주임)",
       job: "오공팀 UI/UX, 3D, 영상 디자인",
       description: "오공팀에서 디자이너를 맡고있습니다. UI/UX뿐만 아니라 3D, 영상에도 능통합니다.",
       icon: "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/48404865_2247755455549449_2865166245005623296_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=174925&_nc_ohc=OM4nrOvQvYwAX_NcNC-&_nc_ht=scontent-ssn1-1.xx&oh=4f21145375be98400a10b1e6f35f2e99&oe=60CA3CB2",
     },
     {
       company: "심효근",
-      startAt: "경력 4년차 개발자", // 입사 월
-      endAt: "주요 경력: 現 금성출판사 개발팀장",
+      startAt: "경력 4년차 안드로이드 개발자", // 입사 월
+      endAt: "주요 경력: 現 금성출판사 매쓰클라우드 개발팀장",
       job: "오공팀 기술자문, 앱개발", // 배정받은 일
       description:
         "오공팀에서의 매니지먼트와 소스 검수, PM역할을 하고있습니다. Kotlin을 사용한 안드로이드 개발과 Node.js 개발, 기술자문을 하고있습니다.",

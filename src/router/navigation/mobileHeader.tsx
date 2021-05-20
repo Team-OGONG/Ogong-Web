@@ -8,7 +8,7 @@ export const MobileHeader = (props) => {
 	}
 	return (
 		<div className={`mobileHeader ${backcolor()}`}>
-			<p className="userName">Shim Hyo Geun</p>
+			<p className="userName">Team.OGONG(50!)</p>
 			<div className="dump" />
 			<div className="openBtn" onClick={() => setIsOpen((isOpen) => !isOpen)} />
 			{isOpen ? <div className="headerBack" onClick={() => setIsOpen(false)} /> : null}
@@ -20,7 +20,7 @@ const Menu = (props) => {
 	return (
 		<div className="mobileHeaderMenu" style={{ right: props.isOpen ? 0 : '-100vw' }}>
 			<div className="innerMenu">
-				<li
+				{/* <li
 					className="langBox"
 					onClick={() => {
 						props.setLang((lang) => (lang === 'KR' ? 'EN' : 'KR'));
@@ -28,7 +28,7 @@ const Menu = (props) => {
 				>
 					<div className="globalImg" />
 					<div className="nowLang">{props.lang}</div>
-				</li>
+				</li> */}
 				<li className="innerLink">
 					<NavLink
 						exact
@@ -40,42 +40,6 @@ const Menu = (props) => {
 					>
 						Home
 					</NavLink>
-				</li>
-				<li className="innerLink">
-					<NavLink
-						exact
-						to="/Resume"
-						activeClassName="activeMenu"
-						onClick={() => {
-							props.setIsOpen();
-						}}
-					>
-						Resume
-					</NavLink>
-				</li>
-				<li className="innerLink">
-					<a
-						href="https://github.com/HyoGeunGit"
-						target="_blank"
-						rel="noopener noreferrer"
-						onClick={() => {
-							props.setIsOpen();
-						}}
-					>
-						Github
-					</a>
-				</li>
-				<li className="innerLink">
-					<a
-						href="http://hyogeun-android.tistory.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-						onClick={() => {
-							props.setIsOpen();
-						}}
-					>
-						Blog
-					</a>
 				</li>
 				<li className="innerLink">
 					<NavLink

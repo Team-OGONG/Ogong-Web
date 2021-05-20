@@ -10,32 +10,7 @@ export const MobileHome = (props: any) => {
 			<div className="backBlur" />
 			<p className="madeText">{props.language.madeText}</p>
 			<div className="resumeBox">
-				<div className="educationBox">
-					<p className="boxTitle">{props.language.education}</p>
-					{data.education.map((item, i) => {
-						return (
-							<div className="educationItem resumeItem" key={i}>
-								<div className="inner_box">
-									<div className="inner_info_box">
-										<img alt="커리어 아이콘" src={item.icon} className="carrerIcon" />
-										<div className="educationInfo info_info">
-											<div className="info_DesBox">
-												<p className="info_title">{item.school}</p>
-												<div className="dump" />
-												<p className="info_sub">{item.department}</p>
-											</div>
-											<div className="dump" />
-											<p className="info_date" style={{ color: i === 0 ? '#6c69ff' : '#a5a5a5' }}>
-												<span>{item.startAt}</span> ~ <span>{item.endAt !== '' ? item.endAt : '현재'}</span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						);
-					})}
-				</div>
-				<div className="careerBox">
+			<div className="careerBox">
 					<p className="boxTitle">{props.language.career}</p>
 					{data.career.map((item, i) => {
 						return (
@@ -52,10 +27,40 @@ export const MobileHome = (props: any) => {
 											<div className="dump" />
 										</div>
 									</div>
-									<p className="info_date" style={{ color: i === 0 ? '#6c69ff' : '#a5a5a5' }}>
-										<span>{item.startAt}</span> ~ <span>{item.endAt !== '' ? item.endAt : '현재'}</span>
+									<br/>
+									<p className="info_date" style={{ color: i === 0 ? '#a5a5a5' : '#a5a5a5' }}>
+										<br/>
+										<span>{item.startAt}</span>
+										<br/>
+										<span>{item.endAt !== '' ? item.endAt : ''}</span>
 									</p>
+									<br/>
 									<p className="info_des">{item.description}</p>
+								</div>
+							</div>
+						);
+					})}
+				</div>
+				<div className="educationBox">
+					<p className="boxTitle">{props.language.education}</p>
+					{data.education.map((item, i) => {
+						return (
+							<div className="educationItem resumeItem" key={i}>
+								<div className="inner_box">
+									<div className="inner_info_box">
+										<img alt="커리어 아이콘" src={item.icon} className="carrerIcon" />
+										<div className="educationInfo info_info">
+											<div className="info_DesBox">
+												<p className="info_title">{item.school}</p>
+												<div className="dump" />
+												<p className="info_sub">{item.department}</p>
+											</div>
+											<div className="dump" />
+											<p className="info_date" style={{ color: i === 0 ? '#6c69ff' : '#a5a5a5' }}>
+												<span>{item.startAt}</span>  <span>{item.endAt !== '' ? item.endAt : ''}</span>
+											</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						);
