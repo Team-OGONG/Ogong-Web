@@ -1,0 +1,35 @@
+{
+	"EN": {
+		"Home": {
+			"career": "Career",
+			"education": "Education",
+			"awards": "Awards",
+			"certificate": "",
+			"madeText": "@2020 All Rigth Reserved [ Shim Hyo Geun ( HyoGeunGit ) ]"
+		},
+		"Portfolio": {
+			"mobileSelector": {
+				"projectSetting": "Project Settings",
+				"DeviceSelect": "Select Device",
+				"ProjectSelect": "Select Project",
+				"close": "Close"
+			},
+			"selector": {
+				"project": "Project",
+				"projectDescription": "Please select the project you want to see."
+			},
+			"info": {
+				"device": "Device",
+				"deviceDescription": "Please select a Device.",
+				"description": "Description",
+				"descriptionDescription": "Description of the project.",
+				"projectName": "Project name ",
+				"projectDescription": "Description",
+				"projectTech": "Skills",
+				"projectRole": "Role",
+				"projectPersonnel": "Personnel",
+				"projectContents": "Content"
+			}
+		}
+	}
+}

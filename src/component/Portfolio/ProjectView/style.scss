@@ -1,0 +1,228 @@
+.projectView {
+  flex: 1;
+  .contant {
+    display: flex;
+    width: 100%;
+    .deviceView {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .views {
+      font-size: 0.95rem;
+      margin-top: 4rem;
+    }
+    .leftBtn {
+      width: 1.3rem;
+      height: 2rem;
+      cursor: pointer;
+      background-image: url("../../../assets/nextL.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: 0.35rem;
+      left: -5rem;
+      z-index: 99;
+      position: absolute;
+    }
+    .rightBtn {
+      width: 1.3rem;
+      height: 2rem;
+      cursor: pointer;
+      background-image: url("../../../assets/nextR.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: 0.35rem;
+      right: -5rem;
+      position: absolute;
+    }
+    .views2 {
+      font-size: 0.95rem;
+      margin-top: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+.view {
+  background-repeat: no-repeat;
+  background-size: contain;
+  // width: 100px;
+  // height: 100px;
+}
+
+.viewIPhone {
+  margin-top: 1rem;
+  width: 28rem;
+  height: 59rem;
+  position: relative;
+  .DeviceView {
+    z-index: 100;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/hyogeun-portfolio.appspot.com/o/stensils%2Fstensil.png?alt=media&token=4901a4ce-b3e5-460f-9aba-086ad1554e3f");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+  .imgView {
+    z-index: 99;
+    position: absolute;
+    width: 79%;
+    height: 81%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 5%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.viewCOMPUTER {
+  margin-top: 5rem !important;
+  width: 52.5rem;
+  position: relative;
+  height: 40rem;
+  .DeviceView {
+    z-index: 100;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/hyogeun-portfolio.appspot.com/o/stensils%2Fcomputer_mockup.png?alt=media&token=c8ca80c8-4e2c-4667-b2a9-d24384c01804");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+  .imgView {
+    z-index: 99;
+    position: absolute;
+    width: 79%;
+    height: 67%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 2.5%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.ProjectTitle {
+  margin-left: 0.1rem;
+  position: relative;
+  font-size: 1.3rem !important;
+  display: block;
+  height: 2rem;
+  width: 15rem;
+  text-align: center;
+}
+.viewTablet {
+  margin-top: 3rem;
+  width: 40rem;
+  height: 56.5rem;
+  position: relative;
+  .DeviceView {
+    z-index: 100;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/hyogeun-portfolio.appspot.com/o/stensils%2Ftablet_mockup.png?alt=media&token=7a039220-ae0e-4aeb-a35e-cf29a62a9d82");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+  .imgView {
+    z-index: 99;
+    position: absolute;
+    width: 82%;
+    height: 78%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 5.5%;
+    span {
+      display: block !important;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.MapView {
+  width: 100%;
+  height: 100%;
+  .carousel-initialized {
+    width: 100%;
+    height: 100%;
+    position: unset;
+  }
+  .carousel-track {
+    width: 100%;
+    height: 100% !important;
+    .carousel-item {
+      width: 100%;
+      height: 100% !important;
+      .carousel-row {
+        width: 100%;
+        height: 100% !important;
+      }
+    }
+  }
+}
+
+.mapView {
+  width: 100%;
+  height: 100%;
+}
+.viewTablet {
+  #leftBtn,
+  #rightBtn {
+    top: -11.2rem !important;
+  }
+}
+.viewCOMPUTER {
+  #leftBtn,
+  #rightBtn {
+    top: -12.3rem !important;
+  }
+}
+#leftBtn {
+  width: 1.3rem !important;
+  height: 2rem !important;
+  cursor: pointer;
+  top: -8.53rem;
+  left: -1.4rem;
+  background-image: url("../../../assets/nextL.svg") !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  z-index: 99 !important;
+  position: absolute !important;
+  color: #000;
+  transition: unset !important;
+}
+
+#rightBtn {
+  transition: unset !important;
+  width: 1.3rem !important;
+  height: 2rem !important;
+  cursor: pointer;
+  top: -8.53rem;
+  right: -1.4rem;
+  background-image: url("../../../assets/nextR.svg") !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  z-index: 99 !important;
+  position: absolute !important;
+  color: #000;
+}
+
+#junkBtn {
+  width: 1px;
+  height: 1px;
+}

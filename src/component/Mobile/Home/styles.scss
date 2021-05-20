@@ -1,0 +1,122 @@
+#mobileHome {
+	width: 100%;
+	height: 100%;
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/hyogeun-portfolio.appspot.com/o/home.jpg?alt=media&token=638e289d-a162-4f63-a0eb-6886cbeb5b4f");
+	background-size: cover;
+	background-position-x: 50%;
+	position: relative;
+	.madeText {
+		position: absolute;
+		text-align: right;
+		width: 80%;
+		bottom: 1rem;
+		color: #fff;
+		opacity: 0.7;
+		right: 1rem;
+	}
+	.backBlur {
+		position: absolute;
+		width: 100%;
+		z-index: 3;
+		height: 100%;    
+		background-color: rgba(0, 0, 0, 0.85)
+	}
+	.resumeBox {
+		z-index: 5;
+		position: absolute;
+		width: 85%;
+		height: 80%;
+		left: 0;
+		right: 0;
+		margin: auto;
+		overflow-y: scroll;
+		top: 12%;
+		.careerBox,
+		.educationBox,
+		.awardsBox,
+		.certificateBox {
+			.boxTitle {
+				font-family: 'Noto Sans CJK KR Bold';
+				color: #fff;
+				font-size: 24px;
+				margin-bottom: 16px;
+			}
+			.educationItem {
+				.info_date {
+					display: flex;
+					align-items: center;
+					font-size: 11px;
+					margin: 0 !important;
+				}
+			}
+			.awardsInfo {
+				display: block !important;
+				.info_title {
+					margin-bottom: 4px;
+				}
+			}
+			.resumeItem {
+				box-shadow: 0 0 3px 3px #555;
+				width: calc(100% - 30px);
+				background-color: #fff;
+				margin-bottom: 40px;
+				border-radius: 5px;
+				padding: 15px;
+				.dump {
+					flex: 1;
+				}
+				.inner_info_box {
+					width: 100%;
+					height: 100%;
+					display: flex;
+					.info_info {
+						width: 100%;
+						display: flex;
+					}
+					.info_DesBox {
+						display: flex;
+						flex-direction: column;
+						margin-left: 8px;
+						justify-content: center;
+					}
+					.info_title {
+						margin-top: 4px;
+						font-family: 'Noto Sans CJK KR Medium';
+						color: #28282c;
+						font-size: 13px;
+					}
+					.info_sub {
+						margin-bottom: 4px;
+						font-family: 'Noto Sans CJK KR Regular';
+						color: #898995;
+						font-size: 11px;
+					}
+				}
+				.info_date {
+					color: #a5a5a5;
+					font-family: 'Noto Sans CJK KR Regular';
+					font-size: 10px;
+					margin-left: 8px;
+					text-align: right;
+					margin-top: -18px;
+					margin-bottom: 16px;
+				}
+				.info_des {
+					font-family: 'Noto Sans CJK KR Regular';
+					color: #62626c;
+					border-radius: 3px;
+					display: block;
+					background-color: #f4f4f4;
+					width: calc(100% - 16px);
+					padding: 8px;
+					font-size: 12px;
+				}
+				img {
+					border-radius: 50%;
+					height: 44px;
+					width: 44px;
+				}
+			}
+		}
+	}
+}

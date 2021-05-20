@@ -1,0 +1,15 @@
+.Resume {
+  height: 100%;
+  width: 100%;
+  .innerPdf {
+    background-color: #fff;
+    padding-top: 7em;
+    height: 100%;
+    width: 100%;
+    iframe {
+      margin-left: 30%;
+      height: 100%;
+      width: 40% !important;
+    }
+  }
+}

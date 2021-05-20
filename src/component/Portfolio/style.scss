@@ -1,0 +1,33 @@
+.title {
+  //NotoSansCJKkr-Black
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.4vh;
+}
+.subTitle {
+  font-size: 1.1rem;
+}
+
+.contant {
+  display: flex;
+  position: relative;
+}
+
+.alignRight {
+  text-align: end;
+}
+.projectIcon {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// .projectIcon0 {
+//     background-image: url('../../assets/icon/Penlight.png');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+
+// .projectIcon1 {
+//     background-image: url('../../assets/icon/mockgongso.png');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }

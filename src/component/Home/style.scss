@@ -1,0 +1,83 @@
+.home {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/hyogeun-portfolio.appspot.com/o/home.jpg?alt=media&token=638e289d-a162-4f63-a0eb-6886cbeb5b4f");
+  background-repeat: no-repeat;
+  background-size: 120% 120%;
+  background-position-y: 20%;
+  background-position-x: 30%;
+  width: 100%;
+  height: 100%;
+  .madeText {
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.2rem;
+  }
+  .home_back {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-sizing: border-box;
+    padding-top: 18vh;
+    .careerBox,
+    .educationBox,
+    .awardsBox,
+    .certificateBox {
+      color: #fff;
+      font-size: 1.3rem;
+    }
+    .resumeBox {
+      margin: auto;
+      overflow-y: scroll;
+      width: 50rem;
+      height: 49rem;
+      .resumeItem {
+        width: 45rem;
+        min-height: 10rem;
+        border-radius: 6px;
+        background-color: #fff;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+        padding: 1.5rem;
+        padding-right: 3rem !important;
+        .info_des {
+          padding-top: 0.5rem;
+          font-size: 1.15rem;
+          border-top: 1px solid lightslategray;
+          margin-top: 0.5rem;
+        }
+        .inner_box {
+          .info_des {
+            margin-left: 7.5rem;
+            margin-top: 0 !important;
+          }
+          .inner_info_box {
+            display: flex;
+            .carrerIcon {
+              width: 6rem;
+              height: 6rem;
+              margin-right: 1.5rem;
+            }
+            .info_info {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              .info_title {
+                font-weight: bold;
+                font-size: 1.3rem;
+              }
+              .info_sub {
+                font-size: 1.2rem;
+              }
+              .info_date {
+                font-size: 1rem;
+                color: lightslategray;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

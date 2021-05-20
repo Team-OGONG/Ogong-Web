@@ -1,0 +1,103 @@
+.backNone {
+	background-color: none !important;
+}
+.backBlack {
+	background-color: #000;
+}
+.mobileHeader {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	z-index: 99;
+	.userName {
+		text-align: center;
+		color: #fff;
+		font-size: 20px;
+		padding-left: 15px;
+		font-family: 'Noto Sans CJK KR Regular';
+	}
+	.openBtn {
+		width: 28px;
+		height: 28px;
+		margin-right: 15px;
+		z-index: 99;
+		background-image: url('../../assets/drawable/ic_menu.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.headerBack {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: 100;
+		transform: 0.2s;
+	}
+	.mobileHeaderMenu {
+		z-index: 101;
+		width: 60%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		transition: right 0.5s ease-in-out;
+		.innerMenu {
+			list-style: none;
+			width: 100%;
+			background-color: #161616;
+			height: 100%;
+			li {
+				display: flex;
+				align-items: center;
+			}
+			.langBox {
+				padding-left: 24px;
+				display: flex;
+				.globalImg {
+					margin-top: 2px;
+					margin-right: 10px;
+					// TODO 이미지 변경 필요 에셋 이미지 요청 필요
+					background-image: url('../../assets/lang.svg');
+					width: 20px;
+					height: 20px;
+					background-repeat: no-repeat;
+					background-size: contain;
+				}
+				padding-top: 40px;
+				margin-bottom: 8px;
+				font-family: 'Noto Sans CJK KR Bold';
+				width: 100%;
+				height: 52px;
+				font-size: 17px;
+				color: #fff;
+			}
+			.innerLink {
+				width: 100%;
+				height: 52px;
+				a {
+					padding-left: 24px;
+					color: #7f7e7e;
+					display: block;
+					width: 100%;
+					height: 100%;
+					display: flex;
+					align-items: center;
+				}
+				font-size: 17px;
+				font-family: 'Noto Sans CJK KR Bold';
+				color: #7f7e7e;
+			}
+		}
+		.activeMenu {
+			color: #fff !important;
+		}
+	}
+}
+.dump {
+	flex: 1;
+}

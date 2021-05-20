@@ -1,0 +1,95 @@
+.MobileDeviceView {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.ProjectTitle {
+		text-align: center;
+	}
+
+	.ProjectTitle {
+		width: auto;
+		height: auto;
+		color: #222222;
+		font-family: 'Noto Sans CJK KR Bold';
+		font-size: 15px !important;
+	}
+	.subTitle {
+		margin-top: 4px;
+		margin-bottom: 10px;
+		font-size: 11px;
+		font-family: 'Noto Sans CJK KR Regular';
+		color: #888888;
+	}
+	.viewIPhone {
+		#rightBtn {
+			top: -60px;
+			width: 11px !important;
+			height: 12px !important;
+		}
+		#leftBtn {
+			top: -60px;
+			width: 11px !important;
+			height: 12px !important;
+		}
+		position: relative;
+		z-index: 5 !important;
+		width: 60vw !important;
+		height: 113vw;
+		.DeviceView {
+			z-index: 70 !important;
+		}
+		.imgView {
+			height: 90%;
+			z-index: 60;
+		}
+	}
+	.viewTablet {
+		margin-top: -4px;
+		#rightBtn {
+			top: -57px !important;
+			width: 11px !important;
+			height: 12px !important;
+		}
+		#leftBtn {
+			top: -57px !important;
+			width: 11px !important;
+			height: 12px !important;
+		}
+		position: relative;
+		z-index: 5 !important;
+		width: 76vw !important;
+		height: 108.5vw;
+		.DeviceView {
+			z-index: 70 !important;
+		}
+		.imgView {
+			height: 77%;
+			z-index: 60;
+		}
+	}
+	.viewCOMPUTER {
+		margin-top: -4px;
+		#rightBtn {
+			top: -74px !important;
+			width: 11px !important;
+			height: 12px !important;
+		}
+		#leftBtn {
+			top: -74px !important;
+			width: 11px !important;
+			height: 12px !important;
+		}
+		position: relative;
+		z-index: 5 !important;
+		width: 88vw !important;
+		height: 68vw;
+		.DeviceView {
+			z-index: 70 !important;
+		}
+		.imgView {
+			height: 66%;
+			z-index: 60;
+		}
+	}
+}

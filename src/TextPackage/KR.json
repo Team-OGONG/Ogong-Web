@@ -1,0 +1,35 @@
+{
+	"KR": {
+		"Home": {
+			"career": "팀원",
+			"education": "사용 기술스택",
+			"awards": "수상",
+			"certificate": "",
+			"madeText": "@2021 Team.OGONG All Rigth Reserved [ 박태욱, 심효근, 이유진 ]"
+		},
+		"Portfolio": {
+			"mobileSelector": {
+				"projectSetting": "프로젝트 설정",
+				"DeviceSelect": "기종 선택",
+				"ProjectSelect": "프로젝트 선택",
+				"close": "닫기"
+			},
+			"selector": {
+				"project": "프로젝트",
+				"projectDescription": "보려고자 하는 프로젝트를 선택해주세요."
+			},
+			"info": {
+				"device": "기종",
+				"deviceDescription": "기종을 선택해주세요.",
+				"description": "설명",
+				"descriptionDescription": "프로젝트에 대한 설명입니다.",
+				"projectName": "프로젝트 명",
+				"projectDescription": "설명",
+				"projectTech": "사용 기술",
+				"projectRole": "역할",
+				"projectPersonnel": "인원",
+				"projectContents": "프로젝트 내용"
+			}
+		}
+	}
+}

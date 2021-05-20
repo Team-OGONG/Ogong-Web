@@ -1,0 +1,77 @@
+$backgroundColor: #333333;
+$mainBackgroundColor: rgba(255, 255, 255, 0);
+.back {
+  background-color: $mainBackgroundColor !important;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 5.3rem;
+  display: flex;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  background-color: $backgroundColor;
+  .logo {
+    margin-left: 10.4%;
+    text-align: center;
+    a {
+      font-size: 1.5rem;
+    }
+  }
+  .navigationMenu {
+    margin-right: 7.3%;
+    display: flex;
+    li {
+      margin-right: 3.1vw;
+      a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .languageChangeBtn {
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    margin-right: 0 !important;
+    justify-content: center;
+    .langIcon {
+      width: 1.2rem;
+      margin-right: 0.4rem;
+      margin-top: 0.2rem;
+      height: 1.2rem;
+      background-image: url("../../assets/lang.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    position: relative;
+    .innerLangBox {
+      display: none;
+      position: absolute;
+      width: 7rem;
+      top: 1.6rem;
+      padding-top: 0.9rem;
+      z-index: 99999999;
+      left: 0.5rem;
+      border-radius: 3px;
+      div {
+        border: 1px solid gray;
+        width: calc(100% -1rem);
+        height: 3rem;
+        line-height: 3rem;
+        background-color: #333;
+
+        padding-left: 1rem;
+      }
+    }
+  }
+  .languageChangeBtn:hover {
+    .innerLangBox {
+      display: block;
+    }
+  }
+}

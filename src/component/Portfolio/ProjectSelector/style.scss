@@ -1,0 +1,36 @@
+.item {
+  width: calc(25% - 1rem);
+  cursor: pointer;
+  padding-bottom: 20.5%;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  // margin-left: 40px;
+  margin-top: 7px;
+  background-color: gray;
+  float: left;
+}
+
+.SelectorMain {
+  padding-left: 6rem;
+  margin-top: 8.5rem;
+  .projectList {
+    // margin-left: -40px;
+    overflow-y: scroll;
+    height: 60vh;
+    .innerList {
+      position: relative;
+      width: 22.285rem;
+      display: inline-block;
+      // flex-direction: column;
+      // align-items: center;
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+}
