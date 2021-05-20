@@ -66,7 +66,7 @@ export const ResumeData = {
     },
     {
       school: "Ui/Ux Design",
-      startAt: "Web/App Design",
+      startAt: "Web/App Design (PS, Ai, AE, Sketch, Zeplin.. etc)",
       endAt: "",
       department: "", // 학과
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Material_Design_Logo.svg/1024px-Google_Material_Design_Logo.svg.png",
