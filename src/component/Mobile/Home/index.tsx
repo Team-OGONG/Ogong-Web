@@ -80,7 +80,7 @@ export const MobileHome = (props: any) => {
 										</div>
 									</div>
 								</div>
-								<p className="info_des">{item.description}</p>
+								<p className="info_des" style={{ background: i === 11 ? '#fff' : '#f4f4f4' }}>{item.description}</p>
 							</div>
 						);
 					})}

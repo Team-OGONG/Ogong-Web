@@ -151,7 +151,7 @@ export const ResumeData = {
         "앱으로 공기 청정 반려식물을 키우는 서비스인 NaMo로 수상하였습니다. Ar과 연동되는 앱 개발을 맡았습니다.", // 설명
     },
     {
-      title: "등의 수상을 하였습니다.",
+      title: "등의 수상 다수 보유.",
       host: "", //주최
       date: "", // 수상 일
       description:
