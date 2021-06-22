@@ -8,7 +8,7 @@ export const ResumeData = {
       endAt: "주요 경력: 前 금성출판사 매쓰클라우드 프론트엔드 리드개발자",
       job: "오공팀 서버, 웹 개발.",
       description: "오공팀에서 서버개발과 웹개발을 맡고있습니다. JS 와 TS를 사용하여 React, Vue, Node 등의 프레임워크와 라이브러리를 사용하는것에 능통합니다.",
-      icon: "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/50830667_2308231422790513_9186058928650190848_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=174925&_nc_ohc=iipq91A2x7UAX-k29vs&_nc_ht=scontent-ssn1-1.xx&oh=f65e2d2889510540291ffad8fa6b02ef&oe=60CCC4BA"
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/74666185_2524679547812365_2924321984919633920_n.jpg?alt=media&token=4715cabe-8ab8-47a2-bdd8-73cc43b2174c"
     },
     {
       company: "이유진",
@@ -16,7 +16,7 @@ export const ResumeData = {
       endAt: "주요경력: 매드맥스 디자이너 (주임)",
       job: "오공팀 UI/UX, 3D, 영상 디자인",
       description: "오공팀에서 디자이너를 맡고있습니다. UI/UX뿐만 아니라 3D, 영상에도 능통합니다.",
-      icon: "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/48404865_2247755455549449_2865166245005623296_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=174925&_nc_ohc=OM4nrOvQvYwAX_NcNC-&_nc_ht=scontent-ssn1-1.xx&oh=4f21145375be98400a10b1e6f35f2e99&oe=60CA3CB2",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/48404865_2247755455549449_2865166245005623296_n.jpg?alt=media&token=250ab431-2f52-47d6-9f04-8987167005c4",
     },
     {
       company: "심효근",
@@ -25,7 +25,7 @@ export const ResumeData = {
       job: "오공팀 기술자문, 앱개발", // 배정받은 일
       description:
         "오공팀에서의 매니지먼트와 소스 검수, PM역할을 하고있습니다. Kotlin을 사용한 안드로이드 개발과 Node.js 개발, 기술자문을 하고있습니다.",
-      icon: "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/159043724_2775814699400571_3131698692731494274_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=JMQVA_62uEQAX9WqLmu&_nc_ht=scontent-ssn1-1.xx&oh=68cc6f9dbe246d43b6ef1069d086bef5&oe=60C9F058",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/159043724_2775814699400571_3131698692731494274_n.jpg?alt=media&token=6929bf82-b445-46dd-b868-163dd5d82a96",
     },
   ],
   education: [
@@ -62,7 +62,7 @@ export const ResumeData = {
       startAt: "Kotlin/Java",
       endAt: "",
       department: "", // 학과
-      icon: "https://lh3.googleusercontent.com/proxy/sPahIbc8YM1AOG7PoLPb9xUabA3fu7KlTe0KvP78ybSBMawns75FDEJjXZGDDiD6ZqanIBoUIdxpIP7Tuee1X03esR1o28E6ZGCjG0cKeOXCpPwl68nF_-Xy1FWaXX1kHiJEnI3XLxKm6gRhi5CaqpfOgMDYX2PeTckPWZiZoFvHJCGQmW0AaPhxTjnwUig3TFwf0dlMmPFL3SQhriX2wLUv-R8Okl2DU47q1eVXVpo89IAAT8oKMSQ-FRTiJIyIytCLbStErrPZBMYHHrw",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png?alt=media&token=1b759d1b-8c3d-4381-a71d-1316f56b098c",
     },
     {
       school: "Ui/Ux Design",
