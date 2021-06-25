@@ -109,6 +109,35 @@ export const ProjectData = [
 		webSite: "https://hyogeun-android.tistory.com/entry/Shak-IT-%EC%89%A8%EC%9E%87-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EA%B0%9C%EB%B0%9C%EA%B8%B0?category=831354",
 	},
 	{
+		title: "잇땅",
+		description:
+		  "창업 쇼핑몰, 잇땅입니다. 오아시스 비즈니스 재직 중 개발참여한 사이트입니다.",
+		role: "Android Develope",
+		technology: "Android(Kotlin)",
+		personnel: "개발자 1",
+		contents:
+		  "창업 쇼핑몰, 잇땅입니다.",
+		icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2Ffavicon.png?alt=media&token=e78d6984-1c3d-4e14-a427-d2cc72169062",
+		iphone: [
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189.jpg?alt=media&token=4531e089-924a-437c-abde-1cea77c07843",
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189_05.jpg?alt=media&token=99990153-7e86-4311-84ac-0b0b0050824f",
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189_06.jpg?alt=media&token=b63b5857-39a3-4fc7-bff2-4e4b6ace7621",
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189_07.jpg?alt=media&token=4a5559cb-639c-4d0c-8a2c-e026e073d980",
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189_08.jpg?alt=media&token=11eff0fc-ee62-4be3-b07e-a77eb0cc68c7",
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189_01.jpg?alt=media&token=81b1880c-975e-4fdc-a8c0-e17aa47df2a7",
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189_02.jpg?alt=media&token=a542593e-e228-45a2-81f8-ada33cf2cabe",
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189_03.jpg?alt=media&token=79077197-8ad7-46a4-baff-e85fd6a387db",
+		  "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/ittang%2FKakaoTalk_20210622_111132189_04.jpg?alt=media&token=f13ba53b-4552-47a8-9354-09fe21af5899"
+		],
+		tablet: [
+		],
+		computer: [],
+		playStore:
+		  "https://play.google.com/store/apps/details?id=kr.co.oasisbusiness&hl=ko&gl=US",
+		github: "",
+		webSite: "https://ittang.co.kr/",
+	},
+	{
 	  title: "Penlight Dancing",
 	  description: "2019 Smarteen App Challenge\n대상 후보작 VR 리듬 게임입니다.",
 	  role: "Web, App Develope",
