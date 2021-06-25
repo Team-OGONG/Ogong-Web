@@ -36,6 +36,14 @@ export const ResumeData = {
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/69805119_1047141128827358_7204318253286424576_n.jpg?alt=media&token=5047a1a1-123f-42da-ab8b-d468a2bce61a",
     },
     {
+      company: "김도경",
+      startAt: "경력 1년차 게임 디자이너",
+      endAt: "주요경력: 몬스터플래닛엠",
+      job: "오공팀 UI/UX, 게임",
+      description: "오공팀에서 게임 디자이너를 맡고있습니다, 게임뿐만 아니라 Ui/Ux 에도 능통합니다.",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/%EC%A0%9C%EC%A3%BC%EB%8F%84-2.jpg?alt=media&token=abecdcd7-17a8-4689-9c1b-ccc691546331",
+    },
+    {
       company: "정용우",
       startAt: "경력 2년차 게임 기획자",
       endAt: "주요경력: 달콤소프트 게임 기획자",
