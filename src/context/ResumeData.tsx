@@ -30,7 +30,7 @@ export const ResumeData = {
     {
       company: "김민",
       startAt: "경력 2년차 UI/UX 디자이너",
-      endAt: "주요경력: 국민의당 디자이너",
+      endAt: "주요경력: 국민의당 브랜딩",
       job: "오공팀 UI/UX, 3D, 영상 디자인",
       description: "오공팀에서 디자이너를 맡고있습니다. 여러 외부 대회 수상 및 현장경험으로 로고디자인, Ui/Ux, 영상, 3D에 능통합니다.",
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/69805119_1047141128827358_7204318253286424576_n.jpg?alt=media&token=5047a1a1-123f-42da-ab8b-d468a2bce61a",
