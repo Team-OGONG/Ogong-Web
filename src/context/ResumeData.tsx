@@ -15,7 +15,7 @@ export const ResumeData = {
       company: "박태욱",
       startAt: "경력 4년차 프론트엔드 개발자",
       endAt: "주요 경력: 前 금성출판사 매쓰클라우드 프론트엔드 리드개발자",
-      job: "오공팀 서버, 웹 개발.",
+      job: "오공팀 서버, 웹 개발",
       description: "오공팀에서 서버개발과 웹개발을 맡고있습니다. JS 와 TS를 사용하여 React, Vue, Node 등의 프레임워크와 라이브러리를 사용하는것에 능통합니다.",
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/74666185_2524679547812365_2924321984919633920_n.jpg?alt=media&token=4715cabe-8ab8-47a2-bdd8-73cc43b2174c"
     },
@@ -47,7 +47,7 @@ export const ResumeData = {
       company: "김도경",
       startAt: "경력 1년차 게임 디자이너",
       endAt: "주요경력: 몬스터플래닛엠 디자이너",
-      job: "오공팀 UI/UX, 게임 디자이너",
+      job: "오공팀 UI/UX, 게임 디자인",
       description: "오공팀에서 게임 디자이너를 맡고있습니다, 게임뿐만 아니라 Ui/Ux 에도 능통합니다.",
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/KakaoTalk_20210625_140026993.jpg?alt=media&token=b03a8e07-24de-4b9d-8810-daa55589e620",
     },
