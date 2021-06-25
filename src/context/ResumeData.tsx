@@ -37,7 +37,7 @@ export const ResumeData = {
     },
     {
       company: "김경백",
-      startAt: "경력 2년차 서버 개발자",
+      startAt: "경력 1년차 서버 개발자",
       endAt: "주요경력: 인프런 프로덕트 개발자",
       job: "오공팀 서버, 웹 개발",
       description: "오공팀에서 서버개발과 웹개발을 맡고있습니다.  React와 Node.js 등의 프레임워크와 라이브러리를 사용하는것에 능통합니다.",
