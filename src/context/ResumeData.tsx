@@ -36,20 +36,20 @@ export const ResumeData = {
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/69805119_1047141128827358_7204318253286424576_n.jpg?alt=media&token=5047a1a1-123f-42da-ab8b-d468a2bce61a",
     },
     {
-      company: "김도경",
-      startAt: "경력 1년차 게임 디자이너",
-      endAt: "주요경력: 몬스터플래닛엠",
-      job: "오공팀 UI/UX, 게임",
-      description: "오공팀에서 게임 디자이너를 맡고있습니다, 게임뿐만 아니라 Ui/Ux 에도 능통합니다.",
-      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/KakaoTalk_20210625_140026993.jpg?alt=media&token=b03a8e07-24de-4b9d-8810-daa55589e620",
-    },
-    {
       company: "정용우",
       startAt: "경력 2년차 게임 기획자",
       endAt: "주요경력: 달콤소프트 게임 기획자",
       job: "오공팀 인디게임 개발파트 소속 게임 기획자",
       description: "오공팀에서 게임 기획자를 맡고있습니다. 여러 외부 활동을 통해 인지도를 늘렸으며, 국가 단위 장관상 수상 등 창의적이고 흥미로운 게임기획에 능통합니다.",
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/181882730_1134060310409495_6189906054227824517_n.jpg?alt=media&token=fe4c9938-fdcd-4b39-bd3c-8a6184ec5a98",
+    },
+    {
+      company: "김도경",
+      startAt: "경력 1년차 게임 디자이너",
+      endAt: "주요경력: 몬스터플래닛엠 디자이너",
+      job: "오공팀 UI/UX, 게임 디자이너",
+      description: "오공팀에서 게임 디자이너를 맡고있습니다, 게임뿐만 아니라 Ui/Ux 에도 능통합니다.",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/KakaoTalk_20210625_140026993.jpg?alt=media&token=b03a8e07-24de-4b9d-8810-daa55589e620",
     },
     {
       company: "김경백",
