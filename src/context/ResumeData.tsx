@@ -41,7 +41,7 @@ export const ResumeData = {
       endAt: "주요경력: 몬스터플래닛엠",
       job: "오공팀 UI/UX, 게임",
       description: "오공팀에서 게임 디자이너를 맡고있습니다, 게임뿐만 아니라 Ui/Ux 에도 능통합니다.",
-      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/%EC%A0%9C%EC%A3%BC%EB%8F%84-2.jpg?alt=media&token=abecdcd7-17a8-4689-9c1b-ccc691546331",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/KakaoTalk_20210625_140026993.jpg?alt=media&token=b03a8e07-24de-4b9d-8810-daa55589e620",
     },
     {
       company: "정용우",
