@@ -3,6 +3,15 @@ export const ResumeData = {
   career: [
     // 경력
     {
+      company: "심효근",
+      startAt: "경력 4년차 안드로이드 개발자", // 입사 월
+      endAt: "주요 경력: 現 금성출판사 매쓰클라우드 개발팀장",
+      job: "오공팀 기술자문, 앱개발", // 배정받은 일
+      description:
+        "오공팀에서의 매니지먼트와 소스 검수, PM역할을 하고있습니다. Kotlin을 사용한 안드로이드 개발과 Node.js 개발, 기술자문을 하고있습니다.",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/159043724_2775814699400571_3131698692731494274_n.jpg?alt=media&token=6929bf82-b445-46dd-b868-163dd5d82a96",
+    },
+    {
       company: "박태욱",
       startAt: "경력 4년차 프론트엔드 개발자",
       endAt: "주요 경력: 前 금성출판사 매쓰클라우드 프론트엔드 리드개발자",
@@ -15,18 +24,17 @@ export const ResumeData = {
       startAt: "경력 3년차 UI/UX 디자이너",
       endAt: "주요경력: 매드맥스 디자이너 (주임)",
       job: "오공팀 UI/UX, 3D, 영상 디자인",
-      description: "오공팀에서 디자이너를 맡고있습니다. UI/UX뿐만 아니라 3D, 영상에도 능통합니다.",
+      description: "오공팀에서 디자이너를 맡고있습니다. Ui/Ux뿐만 아니라 3D, 영상에도 능통합니다.",
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/48404865_2247755455549449_2865166245005623296_n.jpg?alt=media&token=250ab431-2f52-47d6-9f04-8987167005c4",
     },
     {
-      company: "심효근",
-      startAt: "경력 4년차 안드로이드 개발자", // 입사 월
-      endAt: "주요 경력: 現 금성출판사 매쓰클라우드 개발팀장",
-      job: "오공팀 기술자문, 앱개발", // 배정받은 일
-      description:
-        "오공팀에서의 매니지먼트와 소스 검수, PM역할을 하고있습니다. Kotlin을 사용한 안드로이드 개발과 Node.js 개발, 기술자문을 하고있습니다.",
-      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/159043724_2775814699400571_3131698692731494274_n.jpg?alt=media&token=6929bf82-b445-46dd-b868-163dd5d82a96",
-    },
+      company: "김민",
+      startAt: "경력 2년차 UI/UX 디자이너",
+      endAt: "주요경력: 국민의당 디자이너",
+      job: "오공팀 UI/UX, 3D, 영상 디자인",
+      description: "오공팀에서 디자이너를 맡고있습니다. 여러 외부 대회 수상 및 현장경험으로 로고디자인, Ui/Ux, 영상, 3D에 능통합니다.",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/69805119_1047141128827358_7204318253286424576_n.jpg?alt=media&token=5047a1a1-123f-42da-ab8b-d468a2bce61a",
+    }
   ],
   education: [
     {
