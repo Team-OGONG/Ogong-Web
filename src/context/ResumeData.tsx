@@ -34,6 +34,14 @@ export const ResumeData = {
       job: "오공팀 UI/UX, 3D, 영상 디자인",
       description: "오공팀에서 디자이너를 맡고있습니다. 여러 외부 대회 수상 및 현장경험으로 로고디자인, Ui/Ux, 영상, 3D에 능통합니다.",
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/69805119_1047141128827358_7204318253286424576_n.jpg?alt=media&token=5047a1a1-123f-42da-ab8b-d468a2bce61a",
+    },
+    {
+      company: "김경백",
+      startAt: "경력 2년차 서버 개발자",
+      endAt: "주요경력: 인프런 프로덕트 개발자",
+      job: "오공팀 서버, 웹 개발",
+      description: "오공팀에서 서버개발과 웹개발을 맡고있습니다.  React와 Node.js 등의 프레임워크와 라이브러리를 사용하는것에 능통합니다.",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/47602865.jpg?alt=media&token=f300b757-cb97-435b-a890-0dd1bda399bf",
     }
   ],
   education: [
