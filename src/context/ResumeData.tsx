@@ -36,6 +36,14 @@ export const ResumeData = {
       icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/69805119_1047141128827358_7204318253286424576_n.jpg?alt=media&token=5047a1a1-123f-42da-ab8b-d468a2bce61a",
     },
     {
+      company: "정용우",
+      startAt: "경력 2년차 게임 기획자",
+      endAt: "주요경력: 달콤소프트 게임 기획자",
+      job: "오공팀 인디게임 개발파트 소속 게임 기획자",
+      description: "오공팀에서 게임 기획자를 맡고있습니다. 여러 외부 활동을 통해 인지도를 늘렸으며, 국가 단위 장관상 수상 등 창의적이고 흥미로운 게임기획에 능통합니다.",
+      icon: "https://firebasestorage.googleapis.com/v0/b/team-ogong.appspot.com/o/181882730_1134060310409495_6189906054227824517_n.jpg?alt=media&token=fe4c9938-fdcd-4b39-bd3c-8a6184ec5a98",
+    },
+    {
       company: "김경백",
       startAt: "경력 1년차 서버 개발자",
       endAt: "주요경력: 인프런 프로덕트 개발자",
